@@ -1,0 +1,69 @@
+body{
+    background-color: #2f5445;
+    padding :1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-left:40px;
+    padding-right:40px;
+    border-left: 1px dotted #92d4b8;
+    height: 100%;
+  }
+  button {
+    width: 700px;
+    height: 50px;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #92d4b8;
+    background-color: #538a73;
+    color: #031c12;
+    border-radius: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  button:hover {
+    cursor:grab;
+    background: transparent;
+  }
+  .watermark
+  {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  a{
+    color: #92d4b8;
+
+  }
+  a:hover
+  {
+    color: white;
+    cursor: grab;
+  }
+  img{
+    width:20rem;
+    margin-right: 100px;
+    max-width: 300px;
+    border-radius: 5px;
+  }
+  .reveal
+  {
+    border: transparent;
+    background-color: transparent;
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .reveal:hover{
+    border: 1px solid #92d4b8;
+  }
+  .output
+  {
+    width : 50%;
+  }
