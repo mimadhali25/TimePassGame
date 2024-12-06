@@ -1,0 +1,1 @@
+This is a Timepass game which will show memes , jokes , quotes and riddles by clicking on specific buttons. Have fun playing with my game.
